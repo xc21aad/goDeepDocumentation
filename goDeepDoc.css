@@ -24,5 +24,8 @@ p, h1, h5 {
     text-align: center;
 }
 
-
+.card, .card-body {
+    margin-right: auto;
+    margin-left: auto;
+}
 
