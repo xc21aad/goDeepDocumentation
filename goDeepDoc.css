@@ -19,6 +19,11 @@ h1 {
     letter-spacing: 7px;
 }
 
+h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 h5 {
     font-style: italic;
 }
@@ -42,3 +47,15 @@ p, h1, h5, h2 {
     width: 100%;
     text-align: center;
 } 
+
+div.polaroid {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.polContainer {
+    text-align: center;
+    padding: 10px 20px;
+  }
