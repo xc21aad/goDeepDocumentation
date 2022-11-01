@@ -13,14 +13,17 @@
 }
 
 h1 {
-    margin-top: 1em;
+    font-weight: 300;
+    font-size: 50;
+    background-color:aliceblue;
+    letter-spacing: 7px;
 }
 
 h5 {
     font-style: italic;
 }
 
-p, h1, h5 {
+p, h1, h5, h2 {
     text-align: center;
 }
 
@@ -32,3 +35,10 @@ p, h1, h5 {
 #diveplus {
     text-align: center;
 }
+
+.center {
+    position:absolute;
+    top: 70%;
+    width: 100%;
+    text-align: center;
+} 
