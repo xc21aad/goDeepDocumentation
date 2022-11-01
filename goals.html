@@ -52,45 +52,103 @@
 
         <div class="container">
             <h1>Goals:</h1>
-            <ul>
-                <li>The app is user friendly for everyone</li>
-                    <ul>
-                        <li>UI/UX will be user friendly for both new and old users</li>
-                        <li>Majority can't speak english so this app is available in 2 languages</li>
-                    </ul>
-                <li>Users can search wildlife by type, then the app shows all possible local species of that type. The user can then compare what they saw in the ocean 
-                    to the pictures in the app. Everyone who is interested in ocean wildlife can utilize this app</li>
-                    <ul>
-                        <li>Both professional and amateur freedivers can use it</li>
-                        <li>A non-diver beachgoer can use it</li>
-                        <li>An aquatic pet owner can use it</li>
-                    </ul>
-                <li>This app will give specific details about a fish</li>
-                    <ul>
-                        <li>Is this edible?</li>
-                        <li>is this poisonous/deadly?</li>
-                        <li>Remedies if poisoned</li>
-                        <li>Is this endangered? -- allows spearfishers to avoid hunting this fish</li>
-                    </ul>
-                <li>The number 1 rule in diving is "Never Dive Alone" but the majority of divers here go solo since the local diving community is small. It is also not easy 
-                    to chat strangers on social media apps so it's hard to find dive buddies for safety
-                </li>
-                    <ul>
-                        <li>This app allows users to have a dedicated platform for diving to find and chat other divers</li>
-                    </ul>
-                <li>Users can make an account and setup their profile</li>
-                <li>Amatueur divers can't dive as deep as experienced divers, this means that they can't save them if anything happens in deep waters. This app's
-                    user profiles can show important personal dive info so that other divers can know if they are a potential dive buddy
-                </li>
-                    <ul>
-                        <li>Shows depth - how deep can they dive</li>
-                        <li>Shows what level of certification they have</li>
-                        <li>Shows how long they have been diving</li>
-                    </ul>
-                <li>Users can upload pictures and videos</li>
-                <li>Users can search a beach/resort and the app shows information about it</li>
-                    <ul>
-                        <li>Risks in the beach and some advice</li>
+
+            <div id="accordion">
+
+                <div class="card">
+                    <div class="card-header">
+                        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                            This app is user friendly to everyone
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            <ul>
+                                <li>UI/UX will be user friendly for both new and old users</li>
+                                <li>Majority can't speak english so this app is available in 2 languages</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                            This app offers local ocean wildlife info
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            <ul>
+                                <li>This app has information on local ocean wildlife by type</li>
+                                <li>The app displays all possible local species of that type</li>
+                                <li>This app will give specific details about a fish</li>
+                                    <ul>
+                                        <li>Is this edible?</li>
+                                        <li>is this poisonous/deadly?</li>
+                                        <li>Remedies if poisoned</li>
+                                        <li>Is this endangered? -- allows spearfishers to avoid hunting this fish</li>
+                                    </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                            This app offers a wide audience
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            <ul>
+                                <li>Everyone who is interested in ocean wildlife can utilize this app</li>
+                                <ul>
+                                    <li>Both professional and amateur freedivers can use it</li>
+                                    <li>A non-diver beachgoer can use it</li>
+                                    <li>An aquatic pet owner can use it</li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                            This app is a dedicated platform for diving to find and chat other divers
+                        </a>
+                    </div>
+                    <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            <p style="font-size: 13;">The number 1 rule in diving is "Never Dive Alone" but the majority of divers here go solo since the local diving
+                                community is small. It is also not easy to chat strangers on social media apps so it's hard to find dive buddies for safety</p>
+                            <ul>
+                                <li>This app allows users to make an account</li>
+                                <li>This app allows users to chat with other users</li>
+                                <li>This app allows users to setup their profile</li>
+                            </ul>
+                            <p style="font-size: 13;">Amatueur divers can't dive as deep as experienced divers, this means that they can't save them if anything happens 
+                                in deep waters. This app's user profiles can show important personal dive info so that other divers can know if they are a potential dive buddy</p>
+                            <ul>
+                                <li>Their profile displays depth - how deep can they dive</li>
+                                <li>Also shows what level of certification they have</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+                            This app displays info for popular local beaches/resort  
+                        </a>
+                    </div>
+                    <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            <ul>
+                                <li>Risks in the beach and some advice</li>
                             <ul>
                                 <li>A lof of sea urchins here so be careful</li>
                                 <li>A lot of jellyfish here so wear long sleeves and long pants</li>
@@ -112,14 +170,27 @@
                                 <li>Underwater plane wreck at 20meters</li>
                                 <li>Underwater statue of Jesus at 12meters</li>
                             </ul>
-                    </ul>
-                <li>This app posts local dive news for divers to meet and make new friends</li>
-                    <ul>
-                        <li>Coral Planting Event</li>
-                        <li>Local spearfishing competitions</li>
-                        <li>Local freediving competitions</li>
-                    </ul>
-            </ul>
+                            </ul> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseSix">
+                            This app allows uploading of images and videos
+                        </a>
+                    </div>
+                    <div id="collapseSix" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            <ul>
+                                <li>Users can like and comment</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
     </body>
